@@ -1,11 +1,17 @@
 public class RandomLetterChooser extends RandomStringChooser
 {
 	
-	public RandomLetterChooser(String str)
-	{ 
+	public RandomLetterChooser(String str){ 
 		/* to be implemented in part (b) */
-		
+		public RandomLetterChooser(String str){
+			super(smth(str));
 	}
+	public static String[] getSingleLetters(String str){
+		for(int i = 0; i < str.length();i++)
+			return;
+	}
+		
+}
 	
 	
 	public static String[] getSingleLetters(String str)
